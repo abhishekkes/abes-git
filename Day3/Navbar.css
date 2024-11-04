@@ -1,0 +1,22 @@
+.fcontainer {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.fitem {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  padding: 20p;
+  margin: 20px;
+  border: 12px solid green;
+  font-size: 20px;
+  text-align: center;
+}
+.item1 {
+  order: 3;
+  flex-grow: 3;
+  }
